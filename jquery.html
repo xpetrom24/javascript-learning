@@ -6,32 +6,18 @@
 		<script>
 			$(document).ready(function(){
 				
-				$("h1").click(function(){
-					$("h1").addClass("fancy");
-						console.log("on!");
+				$("ul").click(function(){
+					$("ul").append("<li> Another list Item </li>");
+						
 				});
 				
-				$("h2").click(function(){
-					$("h1").removeClass("fancy");
-						console.log("off!");
-				
 				});
-	
-			});
-				
-
 		</script>
-		<style> .fancy {background-color:#FFFACD;
-						color:#808069;
-						font-family:sans-serif;
-						font-size: 1000px;
-						border: 1px solid #EEE8AA;
-						width:1500px;
-						padding:5px;
-						margin:5px;} </style>
+	
 	</head>
 	<body>
-	<h1 id="fancy"> <span class= "glitter"> On </span> </h1>
-	<h2>	<span class="off"> This is the Second Span </span> </h2>
+	<ul>
+		<li> A list Item </li>
+		<li> A second list Item </li>
 		</body>
 </html>
